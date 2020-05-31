@@ -1,0 +1,19 @@
+.root {
+	direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	background-color: #4631a7;
+	height: 100%;
+	width: 100%;
+}
+
+.nav-container {
+	height: 100%;
+}
+
+.container {
+	background-color: #ffffff;
+	height: 100%;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
