@@ -1,0 +1,37 @@
+.root {
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+	background-color: #4631a7;
+	margin: 20px;
+	border-radius: 24px;
+}
+
+.title {
+	padding-left: 24px;
+	padding-top: 20px;
+	color: #e4dbf1;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.ball {
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+.legendContainer {
+	width: 100%;
+	padding-bottom: 20px;
+}
+.legend {
+	margin: 0px 15px;
+}
+.legendTitle {
+	color: #e4dbf1;
+}
