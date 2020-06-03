@@ -15,10 +15,10 @@ export function Layout() {
 			<Grid item sm={11} className={styles.container}>
 				<SearchBar />
 				<Grid container spacing={0}>
-					<Grid item sm={8}>
+					<Grid item sm={9}>
 						<FilesContainer />
 					</Grid>
-					<Grid item sm={4}>
+					<Grid item sm={3}>
 						<InfoContainer />
 					</Grid>
 				</Grid>
