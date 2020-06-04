@@ -17,7 +17,7 @@ export function StorageChart() {
 		chart: {
 			type: "solidgauge",
 			height: "60%",
-			backgroundColor: "#4631a7",
+			backgroundColor: "#5500a9",
 			borderRadius: "40px",
 		},
 
@@ -55,7 +55,7 @@ export function StorageChart() {
 					// Track for Move
 					outerRadius: "100%",
 					innerRadius: "80%",
-					backgroundColor: "#352A96",
+					backgroundColor: "#430098",
 					borderWidth: 0,
 				},
 			],
@@ -84,7 +84,7 @@ export function StorageChart() {
 				name: "Used",
 				data: [
 					{
-						color: "#58C2D7",
+						color: "#00c4da",
 						radius: "100%",
 						innerRadius: "78%",
 						y: 62,

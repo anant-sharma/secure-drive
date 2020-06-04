@@ -1,0 +1,38 @@
+.root {
+	margin: 20px;
+	display: flex;
+	border-radius: 20px;
+	background-color: #faf4ff;
+	padding: 12px;
+}
+
+.icon {
+	height: 48px;
+	width: 48px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #eee4fb;
+	border-radius: 15px;
+}
+.icon > img {
+	height: 36px;
+	width: 36px;
+}
+
+.info {
+	font-size: 14px;
+	font-weight: 500;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	padding: 0px 12px;
+}
+
+.title {
+	color: #5500a9;
+}
+.capacity {
+	color: #b3b1c9;
+	font-size: 11px;
+}
