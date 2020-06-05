@@ -1,0 +1,19 @@
+.table {
+	width: 100%;
+	text-align: left;
+	font-size: 14px;
+	border-spacing: 0px;
+	margin-top: 10px;
+	table-layout: fixed;
+}
+
+.header {
+	color: #b3b1c9;
+}
+.nameHeader {
+	width: 30%;
+}
+
+.tableBodyCell {
+	padding-top: 15px;
+}

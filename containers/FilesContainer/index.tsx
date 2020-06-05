@@ -1,3 +1,4 @@
+import { FileList } from "../../components/FileList";
 import styles from "./index.module.css";
 
 export function FilesContainer(props) {
@@ -14,6 +15,8 @@ export function FilesContainer(props) {
 					<div className={styles.title}>Recent Files</div>
 					<div className={styles.allview}>View all</div>
 				</div>
+
+				<FileList />
 			</div>
 		</div>
 	);

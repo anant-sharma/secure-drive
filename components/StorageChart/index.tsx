@@ -35,7 +35,7 @@ export function StorageChart() {
 			backgroundColor: "none",
 			shadow: false,
 			style: {
-				fontSize: "16px",
+				fontSize: "12px",
 			},
 			valueSuffix: "%",
 			pointFormat: '<span style="font-size:2em; color: {point.color}; font-weight: 400">{point.y}</span>',
@@ -53,8 +53,8 @@ export function StorageChart() {
 			background: [
 				{
 					// Track for Move
-					outerRadius: "100%",
-					innerRadius: "80%",
+					outerRadius: "115%",
+					innerRadius: "95%",
 					backgroundColor: "#430098",
 					borderWidth: 0,
 				},
@@ -85,8 +85,8 @@ export function StorageChart() {
 				data: [
 					{
 						color: "#00c4da",
-						radius: "100%",
-						innerRadius: "78%",
+						radius: "115%",
+						innerRadius: "93%",
 						y: 62,
 					},
 				],
