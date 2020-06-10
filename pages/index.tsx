@@ -1,25 +1,34 @@
-import Head from "next/head";
-import { Layout } from "../components/Layout";
+import Grid from "@material-ui/core/Grid";
+import React from "react";
+import { NewUploadFab } from "../components/NewUploadFab";
+import { PageHead } from "../components/PageHead";
+import { SearchBar } from "../components/SearchBar";
+import { SideNav } from "../components/SideNav";
+import { FilesContainer } from "../containers/FilesContainer";
+import { InfoContainer } from "../containers/InfoContainer";
+import styles from "../styles/index.module.css";
 
 export default function Home() {
 	return (
 		<>
-			<Head>
-				<meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
-				<title>Secure Drive</title>
-				<link rel="icon" href="/favicon.ico" />
-				<link
-					rel="stylesheet"
-					href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-				/>
-				<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-				<link
-					rel="stylesheet"
-					href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
-				/>
-			</Head>
-
-			<Layout />
+			<PageHead />
+			<Grid container spacing={0} className={styles.root}>
+				<Grid item sm={1} className={styles.navContainer}>
+					<SideNav />
+				</Grid>
+				<Grid item sm={11} className={styles.container}>
+					<SearchBar />
+					<Grid container spacing={0}>
+						<Grid item sm={9}>
+							<FilesContainer />
+						</Grid>
+						<Grid item sm={3}>
+							<InfoContainer />
+						</Grid>
+					</Grid>
+					<NewUploadFab />
+				</Grid>
+			</Grid>
 		</>
 	);
 }
