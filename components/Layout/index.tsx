@@ -2,6 +2,7 @@ import Grid from "@material-ui/core/Grid";
 import React from "react";
 import { FilesContainer } from "../../containers/FilesContainer";
 import { InfoContainer } from "../../containers/InfoContainer";
+import { NewUploadFab } from "../NewUploadFab";
 import { SearchBar } from "../SearchBar";
 import { SideNav } from "../SideNav";
 import styles from "./index.module.css";
@@ -22,6 +23,7 @@ export function Layout() {
 						<InfoContainer />
 					</Grid>
 				</Grid>
+				<NewUploadFab />
 			</Grid>
 		</Grid>
 	);

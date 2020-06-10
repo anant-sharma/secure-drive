@@ -1,2 +1,17 @@
 .root {
+	display: flex;
+	flex-direction: column;
+}
+
+.logoContainer {
+	margin: 0px auto 10px;
+}
+
+.logo {
+	height: 80px;
+}
+
+.menuIcon {
+	color: #59c5da;
+	margin: 20px auto;
 }
