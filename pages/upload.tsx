@@ -4,6 +4,7 @@ import { PageHead } from "../components/PageHead";
 import { SideNav } from "../components/SideNav";
 import { UploadContainer } from "../containers/UploadContainer";
 import layoutStyles from "../styles/layout.module.css";
+import styles from "../styles/upload.module.css";
 
 export default function Home() {
 	return (
@@ -13,7 +14,7 @@ export default function Home() {
 				<Grid item sm={1} className={layoutStyles.navContainer}>
 					<SideNav />
 				</Grid>
-				<Grid item sm={11} className={layoutStyles.container}>
+				<Grid item sm={11} className={[layoutStyles.container, styles.container].join(" ")}>
 					<UploadContainer />
 				</Grid>
 			</Grid>

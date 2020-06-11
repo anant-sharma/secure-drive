@@ -23,7 +23,7 @@ export function SideNav() {
 			name: "",
 			icon: SettingsRoundedIcon,
 			isActive: true,
-			href: "/settings",
+			href: "/upload",
 		},
 	];
 

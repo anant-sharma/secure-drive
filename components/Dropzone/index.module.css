@@ -1,5 +1,10 @@
 .root {
 	width: 100%;
+	border-radius: 20px;
+	height: fit-content;
+}
+
+.dzone {
 	min-height: 150px;
 	background-color: #faf4ff;
 	border-radius: 20px;
