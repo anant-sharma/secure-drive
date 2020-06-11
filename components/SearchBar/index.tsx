@@ -9,7 +9,7 @@ export function SearchBar() {
 	return (
 		<div className={styles.root}>
 			<AppBar position="static" color="default" className={styles.bar}>
-				<Toolbar>
+				<Toolbar disableGutters={true}>
 					<div className={styles.search}>
 						<div className={styles.searchIcon}>
 							<SearchIcon />

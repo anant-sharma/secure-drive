@@ -29,9 +29,11 @@ export function SideNav() {
 
 	return (
 		<div className={styles.root}>
-			<div className={styles.logoContainer}>
-				<img className={styles.logo} src={"/images/logo.png"} />
-			</div>
+			<Link href="/">
+				<div className={styles.logoContainer}>
+					<img className={styles.logo} src={"/images/logo.png"} />
+				</div>
+			</Link>
 			{menuItems.map((item, i) => (
 				<Link href={item.href} key={i}>
 					<item.icon className={styles.menuIcon} />

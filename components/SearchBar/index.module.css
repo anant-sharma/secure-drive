@@ -1,7 +1,5 @@
 .root {
 	flex-grow: 1;
-	margin-top: 20px;
-	margin-left: 8px;
 }
 
 .bar {
@@ -33,6 +31,7 @@
 	margin-left: 40px;
 	height: 44px;
 	font-size: 0.9rem;
+	width: 100%;
 }
 .inputInput {
 	padding: 1px 1px 1px 1px;

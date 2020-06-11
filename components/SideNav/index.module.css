@@ -5,6 +5,7 @@
 
 .logoContainer {
 	margin: 0px auto 10px;
+	cursor: pointer;
 }
 
 .logo {
@@ -14,4 +15,5 @@
 .menuIcon {
 	color: #59c5da;
 	margin: 20px auto;
+	cursor: pointer;
 }

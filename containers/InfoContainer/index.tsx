@@ -1,5 +1,6 @@
 import { Drive, IDrive } from "../../components/Drive";
 import { StorageChart } from "../../components/StorageChart";
+import styles from "./index.module.css";
 
 export function InfoContainer() {
 	const drives: IDrive[] = [
@@ -33,11 +34,11 @@ export function InfoContainer() {
 	];
 
 	return (
-		<>
+		<div className={styles.root}>
 			<StorageChart />
 			{drives.map((drive) => (
 				<Drive {...drive} key={drive.id} />
 			))}
-		</>
+		</div>
 	);
 }
