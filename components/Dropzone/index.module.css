@@ -1,0 +1,14 @@
+.root {
+	width: 100%;
+	min-height: 150px;
+	background-color: #faf4ff;
+	border-radius: 20px;
+	border: #eee4fb 5px dashed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.text {
+	color: #b3b1c9;
+}
